@@ -13,7 +13,7 @@ public class Ex08 {
 			for (int j=0;j<i;j++) { //중복있나보자
 				while (lotto[i]==lotto[j]) { //중복 있으면
 					lotto[i]=(int)(Math.random()*45)+1; //i 다시 돌려
-					continue; 	//중복없을때까지?
+					continue; //얘 없어도 잘 돌아가는데?...// 혹시 모르니까 일단 둬
 				}
 			}
 			System.out.print(lotto[i]+" ");
